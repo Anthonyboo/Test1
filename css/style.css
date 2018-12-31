@@ -31,6 +31,85 @@ nav p{
 	font-size: 50px;
 	font-family: "Calibri";
 }
+.divider1 {
+	align-items: flex-end;
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	align-items: center;
+	width: 64%;
+	margin-right: 0px;
+}
+.menu {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+}
+.menu > li{
+	float: left;
+	position: relative;
+}
+.menu a{
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 5px;
+}
+.menu > li > a:hover {
+	padding: 5px;
+	border-top: 3px solid #2aacc8;
+	background-color: white;
+	box-sizing: border-box;
+}
+.submenu {
+	/* display: none; */
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 196px;
+	left: 0;
+	background-color: white;
+	border-bottom: 3px solid #2aacc8;
+	list-style: none;
+}
+/* Работа с аномалией */
+.submenu .btn_services{
+	display: none;
+}
+.submenu > a {
+	display: none;
+}
+.submenu > li{
+	display: block;
+	height: 25px;
+	border-bottom: 2px solid gray;
+	box-sizing: border-box;
+	margin: 0;
+	padding: : 0;
+}
+.submenu > li > a {
+	display: block;
+	padding: 11px;
+	text-transform: none;
+	font-weight: normal;
+	margin: 15;
+	margin-top: 0;
+	padding: 0;
+}
+.menu > li:hover > .submenu{
+	display: block;
+}
+.submenu > li > a:hover {
+	color: #2aacc8;
+}
+.submen
 .divider{
 	align-items: flex-end;
 	display: flex;
@@ -63,7 +142,7 @@ nav li{
 	margin-left: 5px;
 }
 .divider ul {
-	 display: block;
+	 display: none;
 	 position: absolute;
 	 margin: 0;
  	 padding: 0;
@@ -81,7 +160,6 @@ nav li{
     clear: both;
     float: none;
 }
-
 .divider li {
 	display: block;
 	margin: 0;
