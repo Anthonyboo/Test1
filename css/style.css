@@ -68,7 +68,7 @@ nav p{
 	box-sizing: border-box;
 }
 .submenu {
-	/* display: none; */
+	display: none;
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -255,4 +255,25 @@ footer {
   height: 100px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+}
+.future{
+	float: left;
+	width:25%;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+.future h2{
+	font-size: 15px;
+	text-transform: uppercase;
+	float: right;
+}
+.future p{
+	float: left;
+	color: #363636;
+	font-size: 13px;
+}
+.future a{
+	text-decoration: none;
+	float: left;
+	font-size: 13px;
 }
